@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+html {font-size: 14px;}
+
+.inner {
+    max-width: 96%;
+}
+h2 span {
+    font-size: 1.875rem; /* 38px */
+    margin-bottom: 2rem; /* 40px */
+}
+
+/* header */
+header {
+    height: 3.75rem; /* 60px */
+}
+header .inner {
+    display: block;
+    height: 100%;
+}
+header .logo > a {
+    line-height: 3.75rem;
+    text-align: center;
+}
+
+header .btn_search {
+    position: absolute;
+    top: 50%; right: 0;
+    transform: translateY(-50%);
+    font-size: 1.875rem;
+}
+header .btn_mobile {
+    display: block;
+    position: absolute;
+    top: 50%; left: 2%;
+    transform: translateY(-50%);
+    font-size: 1.875rem;
+}
+
+/* nav */
+.gnb_area {
+    position: fixed;
+    top: 3.75rem; left: 0;
+    width: 100%;
+    padding: 7.5rem 0;
+    border-top: 4px solid #539064;
+    background: #fff;
+    z-index: 5;
+    display: none;
+}
+.gnb_area > ul {
+    display: block;
+    width: 100%;
+}
+.gnb_area > ul > li > a {
+    display: block;
+    line-height: 4rem;
+}
+
+/* main_bg */
+.main_bg {
+    height: 50vh;
+}
+.main_bg .main_title {
+    padding: 3rem;
+}
+.main_bg .main_title strong {
+    font-size: 1.125rem;
+}
+.main_bg .main_title span {
+    font-size: 2.5rem;
+}
+
+
+/* main */
+main {
+    padding: 3.25rem 0;
+}
+
+/* best_menu */
+#best_menu_area {
+    padding: 0 0 3.25rem; /* 120px */
+}
+.best_menu {
+    display: block;
+}
+.best_menu > li {
+    height: auto;
+    margin-bottom: 2rem;
+}
+.best_menu > li > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.best_menu > li .img {
+    width: 50%;
+    height: 12.5rem;
+    margin-bottom: 0;
+}
+.best_menu > li .text_area {
+    width: 50%
+}
+.best_menu .btn_view {
+    display: none;
+}
+
+/* event */
+#event {
+    height: 15rem; /* 280px */
+}
+
+/* review */
+#review_area {
+    padding: 3.5rem 0 2rem;
+}
+.review {
+    display: block;
+}
+.review > li {
+    margin-bottom: 2rem;    
+}
+.review > li > a {
+    display: flex;
+    justify-content: space-between;
+}
+.review > li .img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0;
+}
+.review > li .review_text {
+    width: 60%
+}
+
+/* footer */
+footer .inner {
+    display: block;
+    text-align: center;
+}
+footer .f_left {
+    margin-bottom: 20px;
+}
